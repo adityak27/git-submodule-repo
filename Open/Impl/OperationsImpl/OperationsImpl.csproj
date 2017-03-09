@@ -2,7 +2,7 @@
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
-    <BuildType Condition="Exists('$(MSBuildThisFileDirectory)..\..\..\Closed.Props')">Internal</BuildType>
+    <BuildType Condition="Exists('$(MSBuildThisFileDirectory)..\..\..\..\Closed.Props')">Internal</BuildType>
     <BuildType Condition="$(BuildType) == ''">Open</BuildType>
     <TargetFrameworkProfile />
     <ProjectGuid>{E280680B-309F-4C7E-B5C1-0DE17C831FE3}</ProjectGuid>
