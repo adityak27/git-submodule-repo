@@ -17,7 +17,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
-  <Import Project="..\..\..\Closed.Props" Condition="$(BuildType) == 'Internal'" />
+  <Import Project="..\..\..\..\Closed.Props" Condition="$(BuildType) == 'Internal'" />
   <Import Project="..\..\..\Open\Open.Props" Condition="$(BuildType) == 'Open'" />
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>

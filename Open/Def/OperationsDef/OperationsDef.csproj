@@ -13,7 +13,7 @@
   <PropertyGroup>
     <StartupObject />
   </PropertyGroup>
-  <Import Project="..\..\..\Closed.Props" Condition="$(BuildType) == 'Internal'" />
+  <Import Project="..\..\..\..\Closed.Props" Condition="$(BuildType) == 'Internal'" />
   <Import Project="..\..\..\Open\Open.Props" Condition="$(BuildType) == 'Open'" />
   <ItemGroup>
     <Reference Include="System" />
