@@ -9,7 +9,7 @@ namespace OperationsImpl
 
         public Operations()
         {
-            logger = Logger.Logger.GetLogger(@"C:\OperationsLog.txt");
+            logger = Logger.Logger.GetLogger(@"C:\OperationsLog_Release.txt");
         }
 
         public int Add(int val1, int val2)
